@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Yusuf Çeker</title>
+</head>
+<body bgcolor="red">
+
+	<h1>Kullanıcı Girişi</h1>
+		<hr>
+
+		<form>
+
+			<h4>Kişisel Bilgileriniz</h4>
+			<p>
+				 Adınız : <input type="text" name="adınız"
+placeholder="adınızı giriniz" required>
+	</p>
+	<p>
+		Eposta : <input type="email" name="eposta"
+placeholder="Eposta giriniz" required>
+		</p>
+
+		<p>
+			Parola : <input type="password" name="parola"
+placeholder="parola giriniz" required>
+
+		</p>
+
+
+		<p>
+			Şehir :
+
+			<select name=" bulundugunuz sehir">	
+				<option>Seçiniz</option>
+				<option>Ankara</option>
+				<option>İstanbul</option>
+				<option>İzmir</option>
+				<option>Kocaeli</option>
+				<option>Bursa</option>
+				<option>Malatya</option>
+				<option>Adana</option>
+				<option>Sivas</option>
+				<option>Erzincan</option>	
+				<option>Kayseri</option>
+			</select>
+			
+	</p>
+
+	<p>
+
+
+			Cinsiyetiniz :
+				<input type="radio" name="cinsiyet"> Erkek
+				<input type="radio" name="cinsiyet"> Kadın
+				
+	</p>
+		
+	<p>
+		
+		Bildiğiniz Programlama Dilleri :
+			<input type="checkbox" name="Dil">HTML
+			<input type="checkbox" name="Dil">Python
+			<input type="checkbox" name="Dil">C#
+			<input type="checkbox" name="Dil">Java
+	</p>
+
+		<p>
+			Eğitim Seviyeniz :
+				<input type="radio" name="eğitim">İlkokul
+				<input type="radio" name="eğitim">Ortaokul
+				<input type="radio" name="eğitim">Lise
+				<input type="radio" name="eğitim">Üniversite	
+				<input type="radio" name="eğitim">Yüksek Lisans
+		</p>
+
+		<p>
+			<input type="checkbox" name="kaydet">Kaydet
+		</p>
+</body>
+</html>
